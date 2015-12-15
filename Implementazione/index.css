@@ -1,0 +1,258 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+#primo{
+	top:220px;
+	overflow: scroll;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+#primo a{
+	color:#000000
+}
+	
+#finale{
+		position:absolute;
+		height:220px;
+	 	width:100%;
+		top:800px;
+		background-color:#000000;
+		opacity:0.7;
+}
+#container {
+	position:absolute;
+	top:115px;
+	right:0px;
+    clear: both;
+    height: 530px; /* 480px + 25px (padding sx) + 25px (padding dx) */
+    overflow: hidden;
+	z-index:2;
+}
+
+#container p{
+	text-align:center;
+	padding:10px;
+}
+
+#info{
+	position:absolute;
+		height:200px;
+	 	width:1200px;
+		z-index:2;
+		top:800px;
+}
+#follow{
+	position:absolute;
+	height:110px;
+	width:184px;
+	z-index:3;
+	top:44px;
+	border-right-width: 3px;
+	border-right-style: groove;
+	border-right-color: #5F5E5E;
+	left: 2px;
+}
+#contatti{
+	position:absolute;
+	height:110px;
+	width:400px;
+	z-index:3;
+	top:45px;
+	left:198px;
+	border-right-width: 3px;
+	border-right-style: groove;
+	border-right-color: #5F5E5E;	
+}
+
+
+#header
+	{
+	position:absolute;
+	height:200px;
+	background-color: #000000;
+	opacity:0.1;
+	width:100%;
+	}
+
+#trasparenzaBarra
+	{
+	position:absolute;
+	height:50px;
+	width:100%;
+	top: 135px;
+	background-color:#000;
+	opacity:0.4;
+	z-index:1;
+	}
+
+#generale
+	{
+	position:relative;
+	height:1000px;
+	width:1200px;
+	margin:auto;
+	}
+		
+#logo
+	{
+	position:absolute;
+	height:117px;
+	width:400px;
+	top: 10px;
+	left:10px;
+	background-image:url(img/logo.png);
+	z-index:1;
+	}	
+
+#barra
+	{
+	position:absolute;
+	height:30px;
+	width:900px;
+	top:150px;
+	z-index:2;
+	}
+
+#barra a {
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:15px;
+	padding-right:15px;
+	text-decoration:none;
+	color:#EBEBEB;
+	font-family:"Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	font-size:18px;	
+}
+
+#barra a:hover{
+	color:#990000;
+}
+
+#tabs { 
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif"; 
+}
+
+#tabs li {
+    list-style: none;
+    position:relative;
+	float:left;
+	top:80px;
+	left:695px;
+    width: 120px;
+    height: 35px;
+    margin: 0 5px;
+}
+
+#tabs li a {
+	background-color: #31353e;
+	color: #ebebeb;
+	font-weight: bold;
+	text-decoration: none;
+	width: 120px;
+	height: 35px;
+	display: block;
+	float: left;
+	line-height: 35px;
+	text-align: center;
+}
+
+#tabs li a:hover,
+#tabs li a:active {background-color: #990000;}
+
+div.content {
+	color: #ebebeb;
+	font-family: "Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	font-size: 12px;
+	background-color: #990000;
+	padding: 25px;
+	width: 260px;
+	height: 480px;
+	line-height: 22px;
+}
+ 
+
+
+.boxtesto{
+	position:absolute;
+	height:560px;
+	width:870px;
+	background-color:#ebeb;
+	opacity:1;
+}
+.catalogo{
+	background-color:#ebeb;
+	opacity:1;
+}
+.image{
+	width:400px;
+	height:300px;
+}
+
+.testo
+	{
+	position:absolute;
+	height:560px;
+	width:670px;
+	left:10px;
+	z-index:3;
+	}
+p.testo{
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	padding-left:15px;
+	padding-right:15px;
+	color:#000;
+	font-family:"Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	font-size:16px;
+}
+h2.testo {
+	padding-top:15px;
+	padding-bottom:10px;
+	padding-left:15px;
+	padding-right:15px;
+	color:#EBEBEB;
+	font-family:"Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	font-size:20px;
+	border-radius:30px;
+}
+
+body{
+	background-color:#ebebeb;
+}
+
+p{
+	font-family:"Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+	font-size:18px;
+	line-height:26px;
+}
+
+a{
+	color:#EBEBEB;
+}
+
+h2.finale{
+	color:#EBEBEB;
+	margin-top:10px;
+	font-size:24px; 
+	font-family:"Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+p.finale{
+	margin-top:5px; 
+	margin-left:15px; 
+	color:#EBEBEB; 
+	font-size:18px; 
+	font-family:"Myriad Set Pro", "Lucida Grande", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "sans-serif";
+}
+
+.btnDestra{
+	display:block;
+	width:250px;
+	margin-bottom:10px;
+}
+
+
+
+
+

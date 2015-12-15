@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>immobilUnisa</title>
+<link href="index.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+
+
+<div id="header"></div>
+<div id="trasparenzaBarra"></div>
+<div id="generale">
+  <div id="logo"></div>
+  <div id="barra">
+    <p><a href=""> Home</a>
+			<a href="chiSiamo.html"> Chi siamo</a> 
+            <a href="javascript:window.open('contatti.html', 'Contatti', 'width=300,height=150');">Contatti</a>  
+			</p>
+  </div>
+  <div id="container">
+    <div class="content"> <a name="Accedi" id="accedi"></a>
+      <h2 style="text-align:center;">Accesso</h2>
+      <br>
+      <form action="subsystem/autenticazione.php" method="post" style="width:inherit">
+        <input type="text" name="username" placeholder="Username" style="width: inherit; margin-bottom: 15px;" />
+        <br>
+        <input type="password" name="password" placeholder="Password" style="width: inherit; margin-bottom: 15px;"/>
+        <br>
+        <div align="center">
+          <input type="submit" value="Accedi" style="font-size:18px; padding:5px"/>
+          <input type="reset" value="Annulla" style="font-size:18px; padding:5px"/>
+        </div>
+      </form>
+    </div>
+   
+  </div>
+  
+  <div id="primo" class="boxtesto">{CATALOGO}</div>
+  <div id="info">
+    <h2  class="finale" align="center">immobilUnisa</h2>
+    <div id="follow">
+      <p class="finale">FOLLOW US </p>
+      <a href="https://www.facebook.com/Immobilunisa-1105351226171750/" target="_blank"><img style="margin-left:55px; margin-top:10px" alt="Facebook" src="img/fb_icon.png"></a> </div>
+    <div id="contatti">
+      <p class="finale"> CONTACT</p>
+      <p style="margin-left:55px;" class="finale">Tel: +39 0893901234 </p>
+      <a href="mailto:immobilunisa@gmail.com" style="margin-left:55px;" class="finale">Email: immobilunisa@gmail.com </a>
+    </div>
+    <p class="finale" style="margin-top:130px;"> Sito Web creato per il corso di Ingegneria del Software (Matricole Pari) dell'Universit&agrave degli Studi di Salerno a.a.2015/2016 </p>
+  </div>
+</div>
+<div id="finale"></div>
+</body>
+</html>
