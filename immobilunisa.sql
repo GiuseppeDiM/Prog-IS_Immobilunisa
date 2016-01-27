@@ -111,7 +111,7 @@ CREATE TABLE IF NOT EXISTS `utente` (
 --
 
 INSERT INTO `utente` (`codiceFiscale`, `nome`, `dataNascita`, `email`, `telefono`, `username`, `psswd`, `tipo`) VALUES
-('CRNGSP12345', 'Giuseppe Corino', '1991-02-03', 'g.corino@studenti.unisa.it', '3247645343', 'gcorino', 'passsword', 'agente'),
+('CRNGSP12345', 'Giuseppe Corino', '1991-02-03', 'g.corino@studenti.unisa.it', '3247645343', 'gcorino', 'corino', 'agente'),
 ('GPPDMT12345', 'Giuseppe Di Martino', '1992-07-29', 'g.dimartino@libero.it', '3477465432', 'gdimartino', 'dimartino', 'cliente'),
 ('LNDMLA12345', 'Amalia Landi', '1989-08-04', 'a.landi@studenti.unisa.it', '3334545671', 'alandi', 'landi', 'cliente'),
 ('MNZGLI12345', 'Giulio Manzi', '1990-04-12', 'g.manzi@studenti.unisa.it', '3284803954', 'gmanzi', 'manzi', 'cliente'),
