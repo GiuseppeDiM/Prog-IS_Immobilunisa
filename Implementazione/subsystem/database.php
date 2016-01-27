@@ -3,7 +3,7 @@
  * Class: Database
  * Description: Classe che implementa le funzioni utili alla comunicazione con il DB predefinito
  * @version 1.0
- * @created 10-gen-2015 17:39:15
+ * @created 10-gen-2016 17:39:15
  */
 class Database { 	
 	var $host;  	//Hostname, Server
