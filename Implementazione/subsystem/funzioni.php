@@ -281,16 +281,6 @@ session_start();
 	
 	
 	}
-	
-	//crea form  per informazioni
-		 /* function formChiSiamo(){
-		  echo ( Siamo un agenzia Immobiliare situata a Fisciano che si occupa di compra vendita di immobili dal 1985.)
-
-
-<img style="margin-left:100px; margin-top:20px" src=img/agenti.jpg class='image' >
-</div></div>
-
-		 */
 
 	
 	function logout(){
