@@ -55,13 +55,13 @@ if(isset($_GET['action'])){
 	else if($_GET['action']=='assegna'){
 		assegnaAgenti();
 	}
-	else if($_GET['action']=='assegnaImmobile'){
+   /*	else if($_GET['action']=='assegnaImmobile'){
 		$f=new FacadeGestioneImmobili();
 		$res=$f->assegnaImmobile($_GET['oggetto'],$_GET['agente']);
 		if($res==null) echo "<script type='text/javascript'>alert('Assegnazione non riuscita');window.location.replace('indexAmministratore.php');</script>";
 		else  	echo "<script type='text/javascript'>alert('Assegnazione avvenuta con successo');window.location.replace('indexAmministratore.php');</script>";
 
-	}
+	}    */
 	else if($_GET['action']=='assegnaTrattativa'){
 		$f=new FacadeGestioneTrattative();
 		$res=$f->assegnaTrattativa($_GET['oggetto'],$_GET['agente']);
