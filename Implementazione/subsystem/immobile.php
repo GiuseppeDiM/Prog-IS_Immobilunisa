@@ -5,7 +5,7 @@
 	 * Class: Immobile
 	 * Description: Classe che implementa un immobile
 	 * @version 1.0
-	 * @created 10-gen-2015 17:39:15
+	 * @created 10-gen-2016 17:39:15
 	 */
 	class Immobile{
 
