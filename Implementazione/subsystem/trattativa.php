@@ -5,7 +5,7 @@ include_once("database.php");
  * Class: Trattativa
  * Description: Classe che implementa una trattativa
  * @version 1.0
- * @created 10-gen-2015 17:39:15
+ * @created 10-gen-2016 17:39:15
  */
 class Trattativa{
 	
